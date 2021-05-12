@@ -1,0 +1,169 @@
+{
+    "identifier": {
+        "identifier": "https://doi.org/10.5281/zenodo.4741240",
+        "identifierSource": "DOI"
+    },
+    "title": "Longitudinal structural MRI and behavioural data for mice prenatally exposed to maternal immune activation either early or late in gestation",
+    "creators": [
+        {
+            "name": "Elisa Guma"
+        },
+        {
+            "name": "Gabriel A Devenyi"
+        },
+        {
+            "name": "Daniel Gallino"
+        },
+        {
+            "name": "Chloe Anastassiadis"
+        },
+        {
+            "name": "Emily Snook"
+        },
+        {
+            "name": "Jurgen Germann"
+        },
+        {
+            "name": "M Mallar Chakravarty"
+        }
+    ],
+    "description": "<p>Prenatal maternal immune activation (MIA) is a risk factor for neurodevelopmental disorders. How the gestational timing of MIA-exposure differentially impacts downstream development remains unclear. The data presented here includes longitudinal structural magnetic resonance imaging (MRI) data from weaning to adulthood, and behavioural testing in adolescence and adulthood on C57BL/6 mice exposed to MIA induced by the viral mimetic, polyinosinic:polycytidylic acid (poly I:C) either early (gestational day [GD]9) or late (GD17) in gestation.&nbsp;&nbsp;</p>\n\n<p>The data published here was collected and analyzed for the following publication, where more details can be found (Guma et al., 2021 https://doi.org/10.1016/j.biopsych.2021.03.017). Briefly, we found that early MIA-exposure was associated with accelerated brain volume increases in adolescence/early-adulthood that normalized in later adulthood, in regions including the striatum, hippocampus, and cingulate cortex. Similarly, alterations in anxiety-like, stereotypic, and sensorimotor gating behaviours observed in adolescence normalized in adulthood. In contrast, MIA-exposure in late gestation had less impact on anatomical and behavioural profiles.&nbsp;</p>\n\n<p>In addition to the univariate analyses described above, we also undertook a multivariate analysis (partial least squares) to relate imaging and behavioural variables for the time of greatest alteration, i.e. adolescence/early adulthood. We further explored the molecular underpinnings of region-specific alterations in early MIA-exposed mice in adolescence using RNA sequencing (data for differentially expressed genes in the anterior cingulate cortex, dorsal hippocampus, and ventral hippocampus are available via the original publication https://doi.org/10.1016/j.biopsych.2021.03.017 for a separate cohort of adolescent mice prenatally exposed to MIA or vehicle at GD9).&nbsp;</p>\n\n<p>In this dataset, you will find a total of <strong>376 preprocessed structural MRIs</strong> (in MINC format) acquired at postnatal day ~21, ~38, ~60, and ~90 in mice exposed to poly I:C or vehicle control (0.9% sterile saline) at GD9 or 17. These are T1-weighted, manganese enhanced (50mg/kg 24 hours pre-scan), structural images at 100 micron isotropic resolution acquired on a 7 Tesla Bruker Biospec 70/30; matrix size of 180 x 160 x 90; 14.5 minutes, 2 averages, using 5% isoflurane for induction, 1.5% for maintenance of anesthesia during the scan. T1-weighted scans were preprocessed by stripping native coordinates, flipping left-right to maintain fidelity, denoising, correcting inhomogeneities in the bias field using the N4 algorithm, and registering in LSQ6 alignment (i.e. 6 degrees of freedom are allowed for imagine alignment: translations and rotations along x, y, and z dimensions). The demographics information for each animal is included in the <strong>demographics.csv</strong> file.&nbsp;</p>\n\n<p>Behavioural tests were performed following the postnatal day 38 and 90 scans in all animals with a 2 day rest period. These include: open field test, marble burying test, three chambered social approach, and prepulse inhibition. The attentional set shifting task was also performed following the final behavioural test in the postnatal day 90 wave of behaviours. The data for all of these tests is presented in its own individual .csv spreadsheet and includes data for both the timepoints evaluated.</p>\n\n<p>Included in this data set are the structural MRIs in MINC format, the behavioural .csv data, and a <strong>readme.txt</strong> file providing further detail on the data structure and content, and on how to interpret the data column titles. DICOMS are also available for the structural MRI data, as are the raw (not-preprocessed) MINC files, available upon request to the authors.&nbsp;</p>\n\n<p>Finally, the authors would like to acknowledge the funding bodies that supported the completion of this work including the Canadian Institute for Health Research, the Fonds de Recherche du Qu&eacute;bec en Sant&eacute;, and the Healthy Brains for Healthy Lives at McGill University.</p>",
+    "version": "None",
+    "licenses": [
+        {
+            "name": "CC-BY-4.0"
+        }
+    ],
+    "keywords": [
+        {
+            "value": "canadian-open-neuroscience-platform"
+        },
+        {
+            "value": "structural magnetic resonance imaging"
+        },
+        {
+            "value": "mouse"
+        },
+        {
+            "value": "longitudinal mouse brain neuroimaging"
+        },
+        {
+            "value": "MINC"
+        },
+        {
+            "value": "mouse behavioural testing"
+        },
+        {
+            "value": "poly I:C"
+        },
+        {
+            "value": "maternal immune activation"
+        },
+        {
+            "value": "maternal inflammation"
+        },
+        {
+            "value": "brain development"
+        },
+        {
+            "value": "neurodevelopment"
+        },
+        {
+            "value": "neurodevelopmental disorder"
+        },
+        {
+            "value": "schizophrenia"
+        },
+        {
+            "value": "autism spectrum disorder"
+        },
+        {
+            "value": "environmental risk factors for neurodevelopmental disorders"
+        },
+        {
+            "value": "gestational risk factor"
+        },
+        {
+            "value": "Polyinosinic:polycytidylic acid"
+        },
+        {
+            "value": "Prenatal risk factor"
+        },
+        {
+            "value": "Open field test"
+        },
+        {
+            "value": "Prepulse inhibition"
+        },
+        {
+            "value": "Marble burying task"
+        },
+        {
+            "value": "Attentional Set Shifting Task"
+        },
+        {
+            "value": "Social Preference Task"
+        },
+        {
+            "value": "Social Novelty Task"
+        }
+    ],
+    "distributions": [
+        {
+            "formats": [
+                "CSV",
+                "MNC",
+                "TXT"
+            ],
+            "size": 3.3,
+            "unit": {
+                "value": "GB"
+            },
+            "access": {
+                "landingPage": "https://zenodo.org/record/4741241",
+                "authorizations": [
+                    {
+                        "value": "public"
+                    }
+                ]
+            }
+        }
+    ],
+    "extraProperties": [
+        {
+            "category": "logo",
+            "values": [
+                {
+                    "value": "https://about.zenodo.org/static/img/logos/zenodo-gradient-round.svg"
+                }
+            ]
+        },
+        {
+            "category": "files",
+            "values": [
+                {
+                    "value": "386"
+                }
+            ]
+        }
+    ],
+    "dates": [
+        {
+            "date": "2021-05-12 12:48:36",
+            "type": {
+                "value": "date created"
+            }
+        },
+        {
+            "date": "2021-05-12 12:48:40",
+            "type": {
+                "value": "date modified"
+            }
+        }
+    ],
+    "types": [
+        {
+            "value": "imaging"
+        }
+    ]
+}
