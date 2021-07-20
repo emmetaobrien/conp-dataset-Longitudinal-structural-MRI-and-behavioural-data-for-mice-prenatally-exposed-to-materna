@@ -1,0 +1,401 @@
+{
+  "title": "Longitudinal structural MRI and behavioural data for mice prenatally exposed to maternal immune activation either early or late in gestation",
+  "description": "Longitudinal structural MRI and behavioural data for mice prenatally exposed to maternal immune activation either early or late in gestation. Prenatal maternal immune activation (MIA) is a risk factor for neurodevelopmental disorders, such as Autism Spectrum Disorder and Schizophrenia. The data presented here result from a study of how the gestational timing of MIA-exposure differentially impacts downstream development. They include longitudinal structural magnetic resonance imaging (MRI) data from weaning to adulthood, and behavioural testing in adolescence and adulthood on C57BL/6 mice exposed to MIA induced by the viral mimetic polyinosinic:polycytidylic acid (poly I:C), either early (gestational day GD9) or late (GD17) in gestation. More details concerning the data, methods, and results can be found in Guma et al., 2021: https://doi.org/10.1016/j.biopsych.2021.03.017. Please consult the dataset’s README for additional information about the dataset and a summary of the study’s findings.",
+  "identifier": {
+    "identifier": "https://doi.org/10.5281/zenodo.4741240",
+    "identifierSource": "DOI"
+  },
+  "dates": [
+    {
+      "date": "2021-05-12 00:00:00",
+      "type": {
+        "value": "date created"
+      }
+    },
+    {
+      "date": "2021-05-12 00:00:00",
+      "type": {
+        "value": "date modified"
+      }
+    }
+  ],
+  "creators": [
+    {
+      "name": "Elisa Guma",
+      "firstName": "Elisa",
+      "lastName": "Guma",
+      "email": "elisa.guma@mail.mcgill.ca",
+      "affiliations": [
+        {
+          "name": "McGill University"
+        }
+      ]
+    },
+    {
+      "name": "Gabriel A Devenyi",
+      "firstName": "Gabriel",
+      "middleInitial": "Allan",
+      "lastName": "Devenyi",
+      "email": "gdevenyi@gmail.com",
+      "affiliations": [
+        {
+          "name": "McGill University"
+        }
+      ]
+    },
+    {
+      "name": "Daniel Gallino",
+      "firstName": "Daniel",
+      "lastName": "Gallino"
+    },
+    {
+      "name": "Chloe Anastassiadis",
+      "firstName": "Chloe",
+      "lastName": "Anastassiadis",
+      "affiliations": [
+        {
+          "name": "University of Toronto"
+        }
+      ]
+    },
+    {
+      "name": "Emily Snook",
+      "firstName": "Emily",
+      "lastName": "Snook",
+      "affiliations": [
+        {
+          "name": "University of Toronto"
+        }
+      ]
+    },
+    {
+      "name": "Jurgen Germann",
+      "firstName": "Juren",
+      "lastName": "Germann"
+    },
+    {
+      "name": "M Mallar Chakravarty",
+      "firstName": "M Mallar",
+      "lastName": "Chakravarty",
+      "email": "mallar.chakravarty@mcgill.ca",
+      "affiliations": [
+        {
+          "name": "McGill University"
+        }
+      ]
+    }
+  ],
+  "types": [
+    {
+      "information": {
+        "value": "Pre-processed structural MRI data (MINC format) and behavioural data"
+      }
+    }
+  ],
+  "version": "1.2",
+  "privacy": "open",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0"
+    }
+  ],
+  "distributions": [
+    {
+      "formats": [
+        "CSV",
+        "MNC",
+        "TXT"
+      ],
+      "size": 3.3,
+      "unit": {
+        "value": "GB"
+      },
+      "access": {
+        "landingPage": "https://zenodo.org/record/4741241",
+        "authorizations": [
+          {
+            "value": "public"
+          }
+        ]
+      }
+    }
+  ],
+  "primaryPublications": [
+    {
+      "title": "Early or Late Gestational Exposure to Maternal Immune Activation Alters Neurodevelopmental Trajectories in Mice: An Integrated Neuroimaging, Behavioral, and Transcriptional Study",
+      "publicationVenue": "Biological Psychiatry",
+      "authors": [
+        {
+          "fullName": "Elisa Guma",
+          "firstName": "Elisa",
+          "middleInitial": "",
+          "lastName": "Guma",
+          "affiliations": []
+        },
+        {
+          "fullName": "Pedro do Couto Bordignon",
+          "firstName": "Pedro",
+          "middleInitial": "",
+          "lastName": "do Couto Bordignon",
+          "affiliations": []
+        },
+        {
+          "fullName": "Gabriel A Devenyi",
+          "firstName": "Gabriel",
+          "middleInitial": "A ",
+          "lastName": "Devenyi",
+          "affiliations": []
+        },
+        {
+          "fullName": "Daniel Gallino",
+          "firstName": "Daniel",
+          "middleInitial": "",
+          "lastName": "Gallino",
+          "affiliations": []
+        },
+        {
+          "fullName": "Chloe Anastassiadis",
+          "firstName": "Chloe",
+          "middleInitial": "",
+          "lastName": "Anastassiadis",
+          "affiliations": []
+        },
+        {
+          "fullName": "Vedrana Cvetkovska",
+          "firstName": "Vedrana ",
+          "middleInitial": "",
+          "lastName": "Cvetkovska",
+          "affiliations": []
+        },
+        {
+          "fullName": "Amadou D Barry",
+          "firstName": "Amadou",
+          "middleInitial": "D",
+          "lastName": "Barry",
+          "affiliations": []
+        },
+        {
+          "fullName": "Emily Snook",
+          "firstName": "Emily",
+          "middleInitial": "",
+          "lastName": "Snook",
+          "affiliations": []
+        },
+        {
+          "fullName": "Jurgen Germann",
+          "firstName": "Jurgen",
+          "middleInitial": "",
+          "lastName": "Germann",
+          "affiliations": []
+        },
+        {
+          "fullName": "Celia MT Greenwood",
+          "firstName": "Celia",
+          "middleInitial": "MT",
+          "lastName": "Greenwood",
+          "affiliations": []
+        },
+        {
+          "fullName": "Bratislav Misic",
+          "firstName": "Bratislav",
+          "middleInitial": "",
+          "lastName": "Misic",
+          "affiliations": []
+        },
+        {
+          "fullName": "Rosemary C Bagot",
+          "firstName": "Rosemary",
+          "middleInitial": "C",
+          "lastName": "Bagot",
+          "affiliations": []
+        },
+        {
+          "fullName": "M Mallar Chakravarty",
+          "firstName": "M Mallar",
+          "middleInitial": "",
+          "lastName": "Chakravarty",
+          "affiliations": []
+        }
+      ],
+      "dates": [
+        {
+          "date": "2021-03-23 00:00:00",
+          "type": {
+            "value": "date of publication"
+          }
+        }
+      ],
+      "identifier": {
+        "identifier": "",
+        "identifierSource": ""
+      }
+    }
+  ],
+  "acknowledges": [
+    {
+      "name": "Grants",
+      "funders": [
+        {
+          "name": "Fonds de Recherche du Québec en Sante",
+          "abbreviation": "FRQS"
+        },
+        {
+          "name": "Canadian Institute for Health Research",
+          "abbreviation": "CIHR"
+        },
+        {
+          "name": "Healthy Brains for Healthy Lives at McGill University",
+          "abbreviation": "HBHL"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "value": "canadian-open-neuroscience-platform"
+    },
+    {
+      "value": "structural magnetic resonance imaging"
+    },
+    {
+      "value": "mouse"
+    },
+    {
+      "value": "longitudinal mouse brain neuroimaging"
+    },
+    {
+      "value": "MINC"
+    },
+    {
+      "value": "mouse behavioural testing"
+    },
+    {
+      "value": "poly I:C"
+    },
+    {
+      "value": "maternal immune activation"
+    },
+    {
+      "value": "maternal inflammation"
+    },
+    {
+      "value": "brain development"
+    },
+    {
+      "value": "neurodevelopment"
+    },
+    {
+      "value": "neurodevelopmental disorder"
+    },
+    {
+      "value": "schizophrenia"
+    },
+    {
+      "value": "autism spectrum disorder"
+    },
+    {
+      "value": "environmental risk factors for neurodevelopmental disorders"
+    },
+    {
+      "value": "gestational risk factor"
+    },
+    {
+      "value": "Polyinosinic:polycytidylic acid"
+    },
+    {
+      "value": "Prenatal risk factor"
+    },
+    {
+      "value": "Open field test"
+    },
+    {
+      "value": "Prepulse inhibition"
+    },
+    {
+      "value": "Marble burying task"
+    },
+    {
+      "value": "Attentional Set Shifting Task"
+    },
+    {
+      "value": "Social Preference Task"
+    },
+    {
+      "value": "Social Novelty Task"
+    }
+  ],
+  "extraProperties": [
+    {
+      "category": "subjects",
+      "values": [
+        {
+          "value": "95"
+        }
+      ]
+    },
+    {
+      "category": "files",
+      "values": [
+        {
+          "value": "386"
+        }
+      ]
+    },
+    {
+      "category": "CONP_status",
+      "values": [
+        {
+          "value": "Canadian"
+        }
+      ]
+    },
+    {
+      "category": "origin_institution",
+      "values": [
+        {
+          "value": "McGill University"
+        }
+      ]
+    },
+    {
+      "category": "origin_city",
+      "values": [
+        {
+          "value": "Montreal"
+        }
+      ]
+    },
+    {
+      "category": "origin_province",
+      "values": [
+        {
+          "value": "Quebec"
+        }
+      ]
+    },
+    {
+      "category": "origin_country",
+      "values": [
+        {
+          "value": "Canada"
+        }
+      ]
+    },
+    {
+      "category": "logo",
+      "values": [
+        {
+          "value": "https://about.zenodo.org/static/img/logos/zenodo-gradient-round.svg"
+        }
+      ]
+    },
+    {
+      "category": "contact",
+      "values": [
+        {
+          "value": "undefined, undefined"
+        }
+      ]
+    }
+  ]
+}
